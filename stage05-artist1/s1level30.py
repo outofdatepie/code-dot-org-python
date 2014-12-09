@@ -13,7 +13,21 @@ artist = codestudio.load('s1level30')
 a = artist
 
 artist.color = 'green'
-artist.right(90)
-# ???
-
+artist.rt()
+artist.fd()
+artist.rt()
+artist.fd()
+artist.rt()
+artist.fd()
+artist.rt()
+artist.fd()
+artist.lt()
+artist.fd(50)
+artist.fd()
+artist.lt()
+artist.fd()
+artist.lt()
+artist.fd()
+artist.lt()
+artist.fd()
 artist.check()
